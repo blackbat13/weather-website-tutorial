@@ -25,5 +25,23 @@ header h1 {
 }
 
 footer {
-    /* align-self: flex-end; */
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: beige;
+}
+
+#search-input {
+    width: 30vw;
 }

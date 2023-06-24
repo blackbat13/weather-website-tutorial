@@ -1,0 +1,29 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/clear.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header h1 {
+    font-family: 'Caprasimo', cursive;
+}
+
+footer {
+    /* align-self: flex-end; */
+}

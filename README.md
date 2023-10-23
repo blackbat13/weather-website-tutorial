@@ -12,6 +12,10 @@ This project provides a straightforward interface for users to check the current
 - **Weather Data**: all weather-related information, including temperature and weather conditions, is sourced from the [Open-Meteo API](https://open-meteo.com).
 - **Background Images**: the beautiful background images that adapt to the weather conditions are sourced from [Pexels](https://www.pexels.com).
 
+## Demo
+
+Demo website is available at [https://blackbat13.github.io/weather-website-tutorial](https://blackbat13.github.io/weather-website-tutorial) 
+
 ## Getting Started
 
 To run the project locally:

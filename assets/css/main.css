@@ -1,47 +1,60 @@
+/* Styles for the entire body of the page */
 body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("../images/clear.jpg");
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 100vh; /* Set height to 100% of the viewport height */
+    overflow: hidden; /* Hide any content that might overflow the body's dimensions */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Distribute child elements evenly in vertical space */
+    align-items: center; /* Center child elements horizontally */
+    background-image: url("../images/clear.jpg"); /* Background image */
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Adjust the background image to cover the entire container, even if it has to stretch or clip the image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
+/* Styles for the header section */
 header {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    margin-top: 20px; /* Add top margin for spacing */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center child elements horizontally */
+    align-items: center; /* Center child elements vertically */
 }
 
+/* Styles for the main title inside the header */
 header h1 {
-    font-family: 'Caprasimo', cursive;
+    font-family: 'Caprasimo', cursive; /* Custom font for the title */
 }
 
+/* Styles for the footer section */
 footer {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-    align-items: center;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background color */
+    width: 100%; /* Full width of the parent container */
+    display: flex; /* Use flexbox layout */
+    gap: 20px; /* Space between child elements */
+    justify-content: flex-end; /* Align child elements to the end */
+    align-items: center; /* Center child elements vertically */
+    color: white; /* Text color */
 }
 
+/* Styles for links in the footer */
 footer a {
-    color: white;
+    color: white; /* Link color */
 }
 
+/* Hover effect for links in the footer */
 footer a:hover {
-    color: beige;
+    color: beige; /* Change link color to beige on hover */
 }
 
+/* Styles for the search input */
 #search-input {
-    width: 30vw;
+    width: 30vw; /* Set width to 30% of the viewport width */
+    font-size: large; /* Set font size to large */
+}
+
+/* Styles for the container displaying the temperature */
+#temperature-div {
+    font-size: xx-large; /* Set font size to extra extra large */
+    margin-top: 10px;   /* Add top margin for spacing */
 }

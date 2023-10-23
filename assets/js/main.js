@@ -8,7 +8,7 @@ async function getWeather(data) {
     let place = searchInput.value;
 
     // Fetching geographical coordinates for the input place using the geocode API
-    let response = await fetch("http://geocode.maps.co/search?q=" + place);
+    let response = await fetch("https://geocode.maps.co/search?q=" + place);
 
     // Parsing the response to JSON
     let myJson = await response.json();

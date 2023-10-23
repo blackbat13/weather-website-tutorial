@@ -19,7 +19,8 @@ Demo website is available at [https://blackbat13.github.io/weather-website-tutor
 ## Getting Started
 
 To run the project locally:
-1. Clone the repository.
+
+1. Clone or download the repository.
 2. Open `index.html` in a web browser.
 3. Enter a location to view its current weather.
 
